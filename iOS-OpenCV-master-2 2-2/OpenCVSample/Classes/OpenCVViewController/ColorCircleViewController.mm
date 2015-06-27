@@ -244,7 +244,7 @@ static const NSTimeInterval deviceMotionMin = 0.5;
                 //[UIAccelerometer sharedAccelerometer].delegate = nil;
             }
             
-            if(c>=-0.2f && c<=0.0f)
+            if(c<=-0.1f )
             {
                 if(circles.size()!=0){
                     [self.roboMe sendCommand:kRobot_Stop];
@@ -252,18 +252,18 @@ static const NSTimeInterval deviceMotionMin = 0.5;
                 else
                 {
                 NSLog(@"Start");
-                [self.roboMe sendCommand:kRobot_MoveForwardSpeed2];
+                [self.roboMe sendCommand:kRobot_MoveForwardFastest];
                 }
             }
             
-            else if(c<=-0.2f && c>=-1.0f&&circles.size()==0)
+            else if(c>=0.05f && circles.size()==0)
             {
                 if(circles.size()!=0){
                     [self.roboMe sendCommand:kRobot_Stop];
                 }
                 else{
                 NSLog(@"Slow");
-                [self.roboMe sendCommand:kRobot_MoveForwardSpeed5];
+                [self.roboMe sendCommand:kRobot_MoveForwardSlowest];
                 }
             }
             
@@ -273,7 +273,7 @@ static const NSTimeInterval deviceMotionMin = 0.5;
                 }
                 else{
                 NSLog(@"slow ");
-                    [self.roboMe sendCommand:kRobot_MoveForwardSpeed1];}
+                    [self.roboMe sendCommand:kRobot_MoveForwardSpeed3];}
             }
         }];
 }

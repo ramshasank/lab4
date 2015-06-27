@@ -15,8 +15,8 @@
 		0F2439781B3E423600D6E097 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F2439771B3E423600D6E097 /* Security.framework */; };
 		0F24397A1B3E427E00D6E097 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F2439791B3E427E00D6E097 /* CoreMotion.framework */; };
 		0F24397E1B3E494A00D6E097 /* RoboMe.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0F24397C1B3E494A00D6E097 /* RoboMe.bundle */; };
-		0FED600C1B3E54DD0048B00C /* RoboMe.bundle in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F24396B1B3E3A0200D6E097 /* RoboMe.bundle */; };
-		0FED600D1B3E54DD0048B00C /* RoboMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F24396C1B3E3A0200D6E097 /* RoboMe.framework */; };
+		3C7BA2D81B3F0852001F8570 /* RoboMe.bundle in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C7BA2D61B3F07A1001F8570 /* RoboMe.bundle */; };
+		3C7BA2D91B3F0852001F8570 /* RoboMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C7BA2D71B3F07A1001F8570 /* RoboMe.framework */; };
 		41158BDE16F1137C009FA140 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41158BDD16F1137C009FA140 /* UIKit.framework */; };
 		41158BE016F1137C009FA140 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41158BDF16F1137C009FA140 /* Foundation.framework */; };
 		41158BE216F1137C009FA140 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41158BE116F1137C009FA140 /* CoreGraphics.framework */; };
@@ -39,8 +39,6 @@
 
 /* Begin PBXFileReference section */
 		0F24395F1B3DFE6C00D6E097 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		0F24396B1B3E3A0200D6E097 /* RoboMe.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = RoboMe.bundle; path = "../RoboMe Socket/RoboMe-iOS-SDK-master/RoboMe-iOS-SDK/RoboMe.bundle"; sourceTree = "<group>"; };
-		0F24396C1B3E3A0200D6E097 /* RoboMe.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RoboMe.framework; path = "../RoboMe Socket/RoboMe-iOS-SDK-master/RoboMe-iOS-SDK/RoboMe.framework"; sourceTree = "<group>"; };
 		0F24396F1B3E415E00D6E097 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
 		0F2439711B3E420600D6E097 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		0F2439731B3E421000D6E097 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -49,6 +47,8 @@
 		0F2439791B3E427E00D6E097 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		0F24397C1B3E494A00D6E097 /* RoboMe.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = RoboMe.bundle; sourceTree = "<group>"; };
 		0F24397D1B3E494A00D6E097 /* RoboMe.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RoboMe.framework; sourceTree = "<group>"; };
+		3C7BA2D61B3F07A1001F8570 /* RoboMe.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = RoboMe.bundle; sourceTree = "<group>"; };
+		3C7BA2D71B3F07A1001F8570 /* RoboMe.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RoboMe.framework; sourceTree = "<group>"; };
 		41158BDA16F1137C009FA140 /* OpenCVSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenCVSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41158BDD16F1137C009FA140 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		41158BDF16F1137C009FA140 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -82,8 +82,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FED600C1B3E54DD0048B00C /* RoboMe.bundle in Frameworks */,
-				0FED600D1B3E54DD0048B00C /* RoboMe.framework in Frameworks */,
+				3C7BA2D81B3F0852001F8570 /* RoboMe.bundle in Frameworks */,
+				3C7BA2D91B3F0852001F8570 /* RoboMe.framework in Frameworks */,
 				0F24397A1B3E427E00D6E097 /* CoreMotion.framework in Frameworks */,
 				0F2439781B3E423600D6E097 /* Security.framework in Frameworks */,
 				0F2439761B3E422000D6E097 /* MediaPlayer.framework in Frameworks */,
@@ -113,6 +113,16 @@
 			path = "../../../RoboMe Socket/RoboMe-iOS-SDK-master/RoboMe-iOS-SDK";
 			sourceTree = "<group>";
 		};
+		3C7BA2D51B3F07A1001F8570 /* RoboMe-iOS-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				3C7BA2D61B3F07A1001F8570 /* RoboMe.bundle */,
+				3C7BA2D71B3F07A1001F8570 /* RoboMe.framework */,
+			);
+			name = "RoboMe-iOS-SDK";
+			path = "../RoboMe Socket/RoboMe-iOS-SDK-master/RoboMe-iOS-SDK";
+			sourceTree = "<group>";
+		};
 		41158BD116F1137C009FA140 = {
 			isa = PBXGroup;
 			children = (
@@ -135,14 +145,13 @@
 		41158BDC16F1137C009FA140 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3C7BA2D51B3F07A1001F8570 /* RoboMe-iOS-SDK */,
 				0F2439791B3E427E00D6E097 /* CoreMotion.framework */,
 				0F2439771B3E423600D6E097 /* Security.framework */,
 				0F2439751B3E422000D6E097 /* MediaPlayer.framework */,
 				0F2439731B3E421000D6E097 /* AudioToolbox.framework */,
 				0F2439711B3E420600D6E097 /* CFNetwork.framework */,
 				0F24396F1B3E415E00D6E097 /* CoreAudio.framework */,
-				0F24396B1B3E3A0200D6E097 /* RoboMe.bundle */,
-				0F24396C1B3E3A0200D6E097 /* RoboMe.framework */,
 				41158C1416F11696009FA140 /* CoreVideo.framework */,
 				41158C1216F11681009FA140 /* AVFoundation.framework */,
 				41158C1016F11679009FA140 /* CoreMedia.framework */,
@@ -362,6 +371,8 @@
 					"Socket/RoboMe-iOS-SDK-master/RoboMe-iOS-SDK",
 					/Users/renuka/Downloads/RoboMe,
 					"Socket/RoboMe-iOS-SDK-master/RoboMe-iOS-SDK",
+					/Users/Munna/Downloads/RoboMe,
+					"Socket/RoboMe-iOS-SDK-master/RoboMe-iOS-SDK",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OpenCVSample/Supporting Files/OpenCVSample-Prefix.pch";
@@ -384,6 +395,8 @@
 					/Users/renuka/Downloads/RoboMe,
 					"Socket/RoboMe-iOS-SDK-master/RoboMe-iOS-SDK",
 					/Users/renuka/Downloads/RoboMe,
+					"Socket/RoboMe-iOS-SDK-master/RoboMe-iOS-SDK",
+					/Users/Munna/Downloads/RoboMe,
 					"Socket/RoboMe-iOS-SDK-master/RoboMe-iOS-SDK",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
